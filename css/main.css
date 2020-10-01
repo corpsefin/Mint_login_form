@@ -1,5 +1,7 @@
+*{
+	font-family: 'Bree Serif', serif;
 
-
+}
 #loginForm{
     width: 400px;
     margin: 0 auto;
@@ -15,7 +17,8 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 80%;
+	width: 80%;
+	border-radius: 80px;
 }
 
 label{
@@ -27,5 +30,21 @@ input{
 }
 
 button{
-    margin: 25px 0;
+	margin: 25px 0;
+	order: none;
+    outline: none;
+    height: 40px;
+    background: skyblue;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px
 }
+
+button:hover{
+	
+    cursor: pointer;
+    background: orange;
+    color: black;
+}
+
+
